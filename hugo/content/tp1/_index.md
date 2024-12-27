@@ -36,7 +36,7 @@ the dialout group. You will also need to add your user to this group:
 Create the following udev rule at `/etc/udev/rules.d`
 ```
 # TP-1 programmer
-SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="1209", ATTR{idProduct}=="8886", MODE="0666", GROUP="dialout"
+SUBSYSTEM=="usb", ENV{DEVTYPE}=="usb_device", ATTR{idVendor}=="1209", ATTR{idProduct}=="8886", MODE="0660", GROUP="dialout"
 ```
 
 To reload the rules run
