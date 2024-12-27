@@ -50,7 +50,7 @@ it into a programmer board.
 A unique feature of the TKey is that it measures the loaded device
 application before starting it. A hash digest measurement (using
 BLAKE2s) combined with a Unique Device Secret (UDS) makes up a base
-secret we call a Compound Device Identifier (CDI) which can then used
+secret we call a Compound Device Identifier (CDI) which can then be used
 by the TKey device app.
 
 If the TKey device app is altered in any way the CDI is also changed.
